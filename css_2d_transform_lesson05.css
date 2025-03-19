@@ -1,0 +1,30 @@
+body{
+   height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent{
+    height: 400px;
+    width: 400px;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+}
+.child:hover{
+    transform: translate(50px,50px);
+}
